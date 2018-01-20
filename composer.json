@@ -1,11 +1,11 @@
 {
-	"name": "schickling/git-s3",
+	"name": "vjanagaran/git-s3",
 	"description": "Easy way to deploy your git repo to an AWS S3 bucket",
 	"keywords": ["git", "s3", "aws", "deploy", "bucket"],
     "authors": [
         {
-            "name": "Johannes Schickling",
-            "email": "schickling.j@gmail.com"
+            "name": "Janagaran Vardharaj",
+            "email": "vjanagaran@gmail.com"
         }
     ],
 	"require": {
@@ -13,12 +13,12 @@
 		"symfony/yaml": "2.*",
 		"symfony/finder": "2.*",
 		"symfony/filesystem": "2.*",
-		"aws/aws-sdk-php": "2.4.*",
+		"aws/aws-sdk-php": "3.*",
 		"cpliakas/git-wrapper": "1.0.*"
 	},
     "require-dev": {
         "mockery/mockery": "dev-master",
-        "satooshi/php-coveralls": "0.6.*"
+        "satooshi/php-coveralls": "2.*"
     },
     "bin": [
         "bin/git-s3"
